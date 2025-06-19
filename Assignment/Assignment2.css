@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4fc3f7;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .product-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-info img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s;
+  }
+  
+  .product-info img:hover {
+    transform: scale(1.05);
+  }
+  
+  .features {
+    background-color: #e0f7fa;
+    padding: 20px;
+  }
+  
+  .features ul {
+    list-style-type: square;
+  }
+  
+  .testimonials {
+    background-color: #fce4ec;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* 🔹 Responsive Layout */
+  @media (max-width: 600px) {
+    header, .product-info, .features, .testimonials {
+      padding: 15px;
+    }
+  
+    .product-info img {
+      width: 90%;
+    }
+  }
+  
