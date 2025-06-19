@@ -1,0 +1,8 @@
+/* ✅ Step 1: Import the Oswald font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+/* ✅ Step 2: Use the font for h2 and p elements */
+h2,
+p {
+  font-family: 'Oswald', sans-serif;
+}

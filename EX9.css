@@ -1,0 +1,22 @@
+/* ✅ Base styles for all buttons */
+.btn {
+    position: relative; /* Needed to use top and left */
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  
+    /* ✅ Transition settings */
+    transition: top 0.5s, left 0.5s, box-shadow 1s ease, background-color 1s ease;
+  }
+  
+  /* ✅ Hover effects */
+  .btn:hover {
+    top: 1px;
+    left: 1px;
+    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+    background-color: rgb(255, 111, 111);
+  }
+  

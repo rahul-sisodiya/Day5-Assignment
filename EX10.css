@@ -1,0 +1,15 @@
+/* ✅ Base styles for the image box */
+.box {
+    display: inline-block;
+    background-color: #ccc;
+    opacity: 0.8;
+    padding: 10px;
+    transition: background-color 200ms ease-in, opacity 200ms ease-in;
+  }
+  
+  /* ✅ When hovered, animate color and opacity */
+  .box:hover {
+    background-color: #fddb3a; /* bright yellow */
+    opacity: 1;
+  }
+  

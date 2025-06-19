@@ -1,0 +1,22 @@
+ div.knowMoreBtn:hover {
+    background-color: darkorange;
+  }
+  a{
+    color: black;
+  }
+  
+  /* Link is unvisited (default state) */
+  a:link {
+    color: black;
+  }
+  
+  /* Link that has been clicked before */
+  a:visited {
+    color: purple;
+  }
+  
+  /* Link when being clicked (mouse is held down) */
+  a:active {
+    color: black;
+  }
+  
